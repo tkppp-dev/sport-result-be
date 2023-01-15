@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: jdbc:mysql://localhost:3308
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: tiffndla0423
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
