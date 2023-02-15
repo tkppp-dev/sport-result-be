@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: prod
   datasource:
-    url: jdbc:mysql://localhost:3306
+    url: jdbc:mysql://localhost:3306/sport-result
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: tiffndla0423
